@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fefae0;
+}
+#bodyDiv {
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-image: url("Resources/website-background-15.jpg");
+}
+li {
+    margin-left: 25px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+img {
+    border-radius: 5%;
+    border: 2px solid;
+}
+header {
+    padding: 10px;
+    padding-bottom: 50px;
+    background: rgb(212,163,115);
+    border-image-source: linear-gradient(180deg, rgba(212,163,115,1) 0%, rgba(250,237,205,1) 90%, rgba(255,255,255,1) 95%);
+    border-image-width: 100%;
+    border-image-slice: 50%;
+    border-style: solid;
+    width: 80%;
+}
+#profile {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+#profile > img {
+    width: 15%;
+}
+#profile > div {
+    margin: 5px 15px;
+}
+#profile > div > img {
+    width: 25%;
+    border: none;
+}
+
+#mainDiv {
+    display: flex;
+    padding: 20px 5px;
+    padding-bottom: 10vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80%;
+}
+#mainDiv > .column > div {
+    margin: 15px 0;
+}
+.column {
+    width: 50%;
+}
+#column2 > img {
+    margin-top: 40px;
+    width: 75%;
+}
+
+footer {
+    background-color: #ccd5ae;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    padding: 3px auto;
+    display: flex;
+    justify-content: center;
+}
+footer > * {
+    margin: 0 15px;
+}
